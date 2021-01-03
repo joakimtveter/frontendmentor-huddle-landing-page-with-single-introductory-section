@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-primary-dark: hsl(257, 40%, 49%);
+  --clr-primary-medium: hsl(300, 69%, 71%);
+}
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  background-color: var(--clr-primary-dark);
+  padding: 30px;
+}
+
+.logo {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin-right: auto;
+}
+
+.feature-img {
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 26px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  width: 200px;
+  font-size: 13px;
+  padding: 0.85em;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 1em;
+}
+
+.btn-primary {
+  color: var(--clr-primary-dark);
+  background-color: #fff;
+}
+
+.social-link {
+  color: white;
+  text-decoration: none;
+}
+
+/* CHALLENGE STYLES */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 50px 0;
+}
+.attribution a {
+  color: hsl(0, 0%, 66%);
+}
